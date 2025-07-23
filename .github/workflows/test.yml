@@ -35,6 +35,7 @@ jobs:
       uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
+        slug: ${{ github.repository }}
         files: ./coverage.xml
         flags: unittests
         name: codecov-umbrella
