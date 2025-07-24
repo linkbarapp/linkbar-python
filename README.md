@@ -29,7 +29,7 @@ print(f"Redirects to: {link.long_url}")
 
 ## Authentication
 
-Get your API key from your [Linkbar dashboard](https://linkbar.co/api-settings/) and set it:
+Get your API key from your [Linkbar dashboard](https://app.linkbar.co/api-settings) and set it:
 
 ```python
 import linkbar
